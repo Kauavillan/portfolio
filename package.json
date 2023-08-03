@@ -1,0 +1,23 @@
+{
+  "name": "kvnportifolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "file-saver": "^2.0.5",
+    "next": "13.4.2",
+    "next-i18next": "^14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-scroll": "^1.8.9",
+    "smooth-scroll": "^16.1.3",
+    "typeit-react": "^2.6.4"
+  }
+}
