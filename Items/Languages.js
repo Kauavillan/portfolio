@@ -12,13 +12,13 @@ export default function Languages({action, langShow}){
     <div className={styles.lang}>
             { locale == locales[0] ?
                 <>
-                    <div key={locales[0]} className={styles.currentLang} onClick={action}>{locales[0]} <Image src={Brazil} alt="Bandeira do Brasil"/> <RiArrowDownSFill className={`${langShow && styles.active}`}/></div>
-                    <Link href="/" locale={locales[1]}><div key={locales[1]} className={`${langShow && styles.show} ${styles.secondLang}`}>{locales[1]} <Image src={Us_Uk} alt="Bandeira EUA e Reino Unido"/></div></Link>
+                    <div key={locales[0]} className={styles.currentLang} onMouseDown={action}>{locales[0]} <Image src={Brazil} alt="Bandeira do Brasil"/> <RiArrowDownSFill className={`${langShow && styles.active}`}/></div>
+                    <Link href="/" locale={locales[1]}><div key={locales[1]} className={`${langShow ? styles.show : styles.hide} ${styles.secondLang}`}>{locales[1]} <Image src={Us_Uk} alt="Bandeira EUA e Reino Unido"/></div></Link>
                 </>
                 : 
                 <>
-                    <div key={locales[1]} className={styles.currentLang} onClick={action}>{locales[1]} <Image src={Us_Uk} alt="UK and USA flag"/> <RiArrowDownSFill className={`${langShow && styles.active}`}/></div>
-                    <Link href="/" locale={locales[0]}><div key={locales[0]} className={`${langShow && styles.show} ${styles.secondLang}`}>{locales[0]} <Image src={Brazil}/></div></Link>
+                    <div key={locales[1]} className={styles.currentLang} onMouseDown={action}>{locales[1]} <Image src={Us_Uk} alt="UK and USA flag"/> <RiArrowDownSFill className={`${langShow && styles.active}`}/></div>
+                    <Link href="/" locale={locales[0]}><div key={locales[0]} className={`${langShow ? styles.show : styles.hide} ${styles.secondLang}`}>{locales[0]} <Image src={Brazil}/></div></Link>
                 </>
 
                 

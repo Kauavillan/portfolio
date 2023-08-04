@@ -23,12 +23,14 @@
     margin-left: 5px;
 }
 .secondLang{
-    max-height: 0px;
     position: absolute;
-    opacity: 0;
     overflow: hidden;
     transition: max-height .5s;
     background-color: white;
+}
+.hide{
+    max-height: 0px;
+    opacity: 0;
 }
 .lang:hover .secondLang, .show{
     display: flex;
@@ -44,6 +46,6 @@
     background-color: rgb(211, 211, 211);
     
 }
-.lang a:active, .lang a:visited{
+.lang a:active, .lang a:visited, .lang a:link{
     color: black;
 }

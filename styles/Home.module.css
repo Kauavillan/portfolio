@@ -84,7 +84,7 @@
     opacity: 0;
     animation: appearFromLeft .8s ease-in-out forwards 3s;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) and (min-width: 401px) {
     .welcome h1{
         font-size: 30px;
     }
@@ -92,4 +92,23 @@
        font-size: 45px;
    } 
    
+}
+@media screen and (max-width: 400px) and (min-width: 350px){
+    .welcome h1{
+        font-size: 25px;
+    }
+    .typing{
+       font-size: 33px;
+   }
+   .wellcome h2{
+    font-size: 20px !important;
+   }
+}
+@media screen and (max-width: 349px){
+    .welcome h1{
+        font-size: 20px;
+    }
+    .typing{
+       font-size: 28px;
+   } 
 }
