@@ -24,7 +24,7 @@ function Projects(){
 
             < Project img={Cartao_Interativo} title={translate("cartao interativo")} num={4} description ={translate("cartao interativo descricao")} link_github="https://github.com/Kauavillan/Projetos/tree/main/frontendmentor/cartao-interativo" link_page="https://kauavillan.github.io/Projetos/frontendmentor/cartao-interativo/" languages={[<FaHtml5/>, <DiCss3/>, <SiJavascript/>]}/>
 
-            < Project img={News} title={translate("pgina de noticias")} num={5} description ={translate("pagina de noticias descricao")}link_github="https://github.com/Kauavillan/Projetos/tree/main/frontendmentor/pagina-de-noticias" link_page="https://kauavillan.github.io/Projetos/frontendmentor/pagina-de-noticias/" languages={[<FaHtml5/>, <DiCss3/>, <SiJavascript/>]}/>  
+            < Project img={News} title={translate("pagina de noticias")} num={5} description ={translate("pagina de noticias descricao")}link_github="https://github.com/Kauavillan/Projetos/tree/main/frontendmentor/pagina-de-noticias" link_page="https://kauavillan.github.io/Projetos/frontendmentor/pagina-de-noticias/" languages={[<FaHtml5/>, <DiCss3/>, <SiJavascript/>]}/>  
 
             < Project img={Clipboard} title={translate("pagina clipboard")} num={6} description={translate("pagina clipboard descricao")} link_github="https://github.com/Kauavillan/Projetos/tree/main/frontendmentor/pagina-clipboard" link_page="https://kauavillan.github.io/Projetos/frontendmentor/pagina-clipboard/" languages={[<FaHtml5/>, <DiCss3/>]}/>    
         </div>
