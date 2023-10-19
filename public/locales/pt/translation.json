@@ -32,7 +32,7 @@
     "turismo espacial": "Turismo Espacial",
     "turismo espacial descricao": "Página com temática espacial, que apresenta curiosidades sobre astronomia. A maioria das páginas desse projeto são alimentadas por um arquivo JSON.",
     "rastreadora": "Rastreadora de IP's e domínios",
-    "rastreadora descricao": "O projeto utiliza duas API's, sendo uma para pegar os dados sobre os IP's ou domínios preenchidos e outra para formar um mapa, que recebe automaticamente a latitude e longitude informadas e se aproxima do local.",
+    "rastreadora descricao": "O projeto utiliza duas APIs, sendo uma para pegar os dados sobre os IPs ou domínios preenchidos e outra para formar um mapa, que recebe automaticamente a latitude e longitude informadas e se aproxima do local.",
     "cartao interativo": "Formulário de cartão interativo",
     "cartao interativo descricao": "Durante o preenchimento dos dados do cartão, o texto é alterado automaticamente. Para garantir o preenchimento correto dos campos, cada um possui suas póprias verificações e expressões regulares, quando necessário.",
     "pagina de noticias": "Página de notícias",
