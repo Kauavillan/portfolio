@@ -3,9 +3,9 @@ import styles from "../styles/Project.module.css"
 import {BsGithub, BsBoxArrowUpRight} from "react-icons/bs"
 import Link from "next/link";
 import Button from "./Button";
-import { useTranslation } from "next-i18next";
-function Project({img, title, num, description, link_github="none", link_page, languages}){
-    const {t: translate} = useTranslation('translation');
+
+function Project({img, title, num, description, link_github="none", locale, link_page, languages}){
+
     return(
         <section  data-aos={num%2==0 ? "fade-left" : "fade-right"}  data-aos-anchor-placement={num%2==0 ? "center-bottom" : "top-bottom"} className={styles.project}>
             <h4>{title}</h4>
@@ -19,8 +19,8 @@ function Project({img, title, num, description, link_github="none", link_page, l
                 }
             </ul>
             <div className={link_github == "none" ? styles.singleButton : styles.buttons}>
-                {link_github !== "none" && <Button text={translate == "pt" ? "Ver projeto" : "See project"} link={link_github} icon={<BsGithub/>}/>}
-                <Button text= {translate == "pt" ? "Visitar site" : "Visit website"} link={link_page} icon={<BsBoxArrowUpRight/>}/>
+                {link_github !== "none" && <Button text={locale == "pt" ? "Ver projeto" : "See project"} link={link_github} icon={<BsGithub/>}/>}
+                <Button text= {locale == "pt" ? "Visitar site" : "Visit website"} link={link_page} icon={<BsBoxArrowUpRight/>}/>
             </div>
         </section>
     )
