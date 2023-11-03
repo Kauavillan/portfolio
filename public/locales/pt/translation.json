@@ -39,7 +39,7 @@
     "pagina de noticias descricao": "Página com interface moderna representando a sessão inicial de uma página de notícias.",
     "pagina clipboard": "Página Clipboard",
     "pagina clipboard descricao": "O layout completo de uma página sobre o Clipboard. Dê um desconto pela simplicidade, mas esse foi um dos meus primeiros projetos depois de terminar o curso técnico :).",
-    "desenvolvido por": "Desenvolvido totalmente por"
-
-    
+    "desenvolvido por": "Desenvolvido totalmente por",
+    "form multi step": "Formulário de várias etapas",
+    "form multi step descricao": "Um formulário de 4 etapas, que armazena e processa todos os valores informados. É possível percorrer o formulário livremente e todos os campos serão salvos automaticamente."
 }

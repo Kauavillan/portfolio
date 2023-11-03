@@ -39,5 +39,8 @@
     "pagina de noticias descricao": "Page with modern interface representing the initial session of a news web page.",
     "pagina clipboard": "Clipboard Homepage",
     "pagina clipboard descricao": "The complete layout of a page about Clipboard. Give it a break for the simplicity, this was one of my first projects after finishing the technical course, tho :).",
-    "desenvolvido por": "Totally developed by"
+    "desenvolvido por": "Totally developed by",
+    "form multi step": "Multi Step Form",
+    "form multi step descricao": "A 4-step form that stores and processes all the values entered. You can navigate freely through the form and all fields will be saved automatically.",
+    "computador": "Computer icon"
 }

@@ -25,10 +25,10 @@ export default function About(){
             { windowSize.width >=1250 ?
                 <div data-aos="fade-left" className={`${styles.list} ${styles.bigwind}`}>
                     <ul>
-                        <li><Image src={ComputerIcon}/>{translate("interesse em tecnologia")}</li>
-                        <li><Image src={CodeIcon}/>{translate("disposto a aprender")}</li>
-                        <li><Image src={LampIcon}/>{translate("encontrar solucoes")}</li>
-                        <li><Image src={CoffeIcon}/>{translate("amo cafe")}</li>
+                        <li><Image src={ComputerIcon} alt={translate("icone computador")}/>{translate("interesse em tecnologia")}</li>
+                        <li><Image src={CodeIcon} alt={translate("icone programa")}/>{translate("disposto a aprender")}</li>
+                        <li><Image src={LampIcon} alt={translate("icone lampada")}/>{translate("encontrar solucoes")}</li>
+                        <li><Image src={CoffeIcon} alt={translate("icone cafe")}/>{translate("amo cafe")}</li>
                     </ul>
                 </div> : <></>
             }
@@ -38,8 +38,8 @@ export default function About(){
                 <section data-aos="fade-left" className={`${styles.list} ${styles.smwind}`}>
                     <ul>
                         <li><Image src={ComputerIcon} alt={translate("icone computador")}/>{translate("interesse em tecnologia")}</li>
-                        <li><Image src={CodeIcon} alt={translate("icone computador")}/>{translate("disposto a aprender")}</li>
-                        <li><Image src={LampIcon} alt={translate("icone programa")}/>{translate("encontrar solucoes")}</li>
+                        <li><Image src={CodeIcon} alt={translate("icone programa")}/>{translate("disposto a aprender")}</li>
+                        <li><Image src={LampIcon} alt={translate("icone lampada")}/>{translate("encontrar solucoes")}</li>
                         <li><Image src={CoffeIcon} alt={translate("icone cafe")}/>{translate("amo cafe")}</li>
                     </ul>
                 </section> : <></>
