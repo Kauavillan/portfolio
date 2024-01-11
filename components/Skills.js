@@ -21,9 +21,19 @@ export default function Skills() {
       description: "CSS",
     },
     {
+      src: "/images/sass_logo.png",
+      alt: "SASS logo",
+      description: "SASS",
+    },
+    {
       src: "/images/js_logo.png",
       alt: "JavaScript logo",
       description: "JavaScript",
+    },
+    {
+      src: "/images/typescript_logo.png",
+      alt: "TypeScript logo",
+      description: "TypeScript",
     },
     {
       src: "/images/react_logo.png",
@@ -35,11 +45,7 @@ export default function Skills() {
       alt: "Next.js logo",
       description: "Next.js",
     },
-    {
-      src: "/images/github_logo.png",
-      alt: "Github logo",
-      description: "GitHub",
-    },
+
     {
       src: "/images/php-logo.png",
       alt: "PHP logo",
@@ -65,10 +71,16 @@ export default function Skills() {
       alt: "JQuery logo",
       description: "JQuery",
     },
+
     {
       src: "/images/bootstrap-logo.png",
       alt: "Bootstrap logo",
       description: "Bootstrap",
+    },
+    {
+      src: "/images/github_logo.png",
+      alt: "Github logo",
+      description: "Git/GitHub",
     },
     {
       src: "/images/wordpress_logo.png",
