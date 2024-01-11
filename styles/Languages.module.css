@@ -1,51 +1,59 @@
-.lang{
-    right: 3vh;
-    padding: 3px;
-    border-radius: 1px;
+.lang {
+  padding: 3px;
+  border-radius: 1px;
 }
-.lang div{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
-    border-radius: 2px;
-    cursor:pointer;
+.lang div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
 }
-.lang div:hover{
-    background-color: rgb(235, 235, 235);
+.lang div:hover {
+  /* background-color: rgb(235, 235, 235); */
+  transition: 0.5s;
+  background-color: var(--dark-background);
+  color: white;
 }
-.lang div:not(:first-child){
-    margin-top: 5px;
+.lang div:hover svg {
+  color: white;
 }
-.lang img{
-    width: 40px;
-    height: auto;
-    margin-left: 5px;
+.lang div:not(:first-child) {
+  margin-top: 5px;
 }
-.secondLang{
-    position: absolute;
-    overflow: hidden;
-    transition: max-height .5s;
-    background-color: white;
+.lang img {
+  width: 40px;
+  height: auto;
+  margin-left: 5px;
 }
-.hide{
-    max-height: 0px;
-    opacity: 0;
+.secondLang {
+  position: absolute;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  background-color: white;
 }
-.lang:hover .secondLang, .show{
-    display: flex;
-    opacity: 1;
-    max-height: 100px;
+.hide {
+  max-height: 0px;
+  opacity: 0;
+}
+.lang:hover .secondLang,
+.show {
+  display: flex;
+  opacity: 1;
+  max-height: 100px;
 }
 
-.lang:hover svg, .active{
-    transform: rotate(-180deg);
-    transition: .5s;
+.lang:hover svg,
+.active {
+  transform: rotate(-180deg);
+  transition: 0.5s;
 }
-.lang a:active div{
-    background-color: rgb(211, 211, 211);
-    
+.lang a:active div {
+  background-color: var(--darker-background);
 }
-.lang a:active, .lang a:visited, .lang a:link{
-    color: black;
+.lang a:active,
+.lang a:visited,
+.lang a:link {
+  color: black;
 }

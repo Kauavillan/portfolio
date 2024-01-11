@@ -1,47 +1,48 @@
-.cur{
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    backdrop-filter: blur(2px);
-    
-    overflow: scroll;
+.cur {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(2px);
+  overflow: hidden;
 }
-.cur div{
-    z-index: 11;
+.cur div {
+  z-index: 11;
 }
-.cur button{
-    position: absolute;
-    z-index: 11;
-    bottom: 30px;
-    cursor: pointer;
+.cur button {
+  position: absolute;
+  z-index: 11;
+  bottom: 30px;
+  cursor: pointer;
 }
-.cur img{
-    width: auto;
-    height: 80vh;
+.frame iframe {
+  width: 50vw;
+  height: 90vh;
+  border: none;
 }
-.background{
-    position: absolute;
-    z-index: 9;
-    width: 100vw;
-    height: 100vh;
-    cursor: pointer;
+.background {
+  position: absolute;
+  z-index: 9;
+  width: 100vw;
+  height: 100vh;
+  cursor: pointer;
 }
-.loading{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    max-width: 50px;
-    max-height: 50px;
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  width: 100px;
+  height: 100px;
 }
 @media screen and (max-width: 750px) {
-    .cur img{
-        width: 80vw;
-        height: auto;
-    }
+  .frame iframe {
+    width: 90vw;
+    height: 80vh;
+  }
 }
